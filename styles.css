@@ -224,7 +224,18 @@ body {
   padding-left: 20px;
 }
 
+
 .experiences__company-project-exemples a {
+  fill: var(--secondary-text-color);
+  position: relative;
+  top: 2px;
+}
+
+.experiences__company-project-pet {
+  padding-left: 20px;
+}
+
+.experiences__company-project-pet a {
   fill: var(--secondary-text-color);
   position: relative;
   top: 2px;
