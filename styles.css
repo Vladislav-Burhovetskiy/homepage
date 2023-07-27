@@ -186,12 +186,14 @@ body {
 .experiences__header {
   color: var(--secondary-text-color);
   text-align: left;
+  margin-left: 16px;
   margin-bottom: 20px;
 }
 
 .experiences__company-header-durability {
   color: var(--durability-text-color);
   text-align: left;
+  margin-left: 16px;
   margin-bottom: 10px;
   font-size: 15px;
 }
