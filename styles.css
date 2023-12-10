@@ -330,10 +330,18 @@ body {
   margin-bottom: 20px;
 }
 
-.not-official-info img {
-  width: 100%;
+.public-space__image {
+  width: 210px;
   height: 150px;
   box-shadow: 1px 1px 4px 4px var(--text-decoration-color);
+  background-image: url("./assets/public_space.jpg");
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+.public-space__image:hover {
+  background-image: url("./assets/winter-public-space.png");
+  background-position: center;
 }
 
 .position {
@@ -345,4 +353,14 @@ body {
   right: -92px;
   top: 60px;
   transform: rotate(0.25turn);
+}
+
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000;
 }
