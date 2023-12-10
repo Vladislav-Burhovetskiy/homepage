@@ -336,7 +336,7 @@ body {
   box-shadow: 1px 1px 4px 4px var(--text-decoration-color);
   background-image: url("./assets/public_space.jpg");
   background-size: cover;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .public-space__image:hover {
@@ -353,4 +353,14 @@ body {
   right: -92px;
   top: 60px;
   transform: rotate(0.25turn);
+}
+
+#snow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 1000;
 }
