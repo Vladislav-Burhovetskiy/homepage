@@ -330,10 +330,18 @@ body {
   margin-bottom: 20px;
 }
 
-.not-official-info img {
-  width: 100%;
+.public-space__image {
+  width: 210px;
   height: 150px;
   box-shadow: 1px 1px 4px 4px var(--text-decoration-color);
+  background-image: url("./assets/public_space.jpg");
+  background-size: cover;
+  transition: all 0.2s ease-in-out;
+}
+
+.public-space__image:hover {
+  background-image: url("./assets/winter-public-space.png");
+  background-position: center;
 }
 
 .position {
